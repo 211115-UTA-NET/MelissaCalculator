@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\amaro\\Melissanotes\\MelissaamaroB\\CalculatorProgram\\CalculatorProgram.csproj": {}
+    "C:\\Users\\amaro\\foldername\\MelissaCalculator\\programcal\\CalculatorProgram.csproj": {}
   },
   "projects": {
-    "C:\\Users\\amaro\\Melissanotes\\MelissaamaroB\\CalculatorProgram\\CalculatorProgram.csproj": {
+    "C:\\Users\\amaro\\foldername\\MelissaCalculator\\programcal\\CalculatorProgram.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\amaro\\Melissanotes\\MelissaamaroB\\CalculatorProgram\\CalculatorProgram.csproj",
+        "projectUniqueName": "C:\\Users\\amaro\\foldername\\MelissaCalculator\\programcal\\CalculatorProgram.csproj",
         "projectName": "CalculatorProgram",
-        "projectPath": "C:\\Users\\amaro\\Melissanotes\\MelissaamaroB\\CalculatorProgram\\CalculatorProgram.csproj",
+        "projectPath": "C:\\Users\\amaro\\foldername\\MelissaCalculator\\programcal\\CalculatorProgram.csproj",
         "packagesPath": "C:\\Users\\amaro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\amaro\\Melissanotes\\MelissaamaroB\\CalculatorProgram\\obj\\",
+        "outputPath": "C:\\Users\\amaro\\foldername\\MelissaCalculator\\programcal\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\amaro\\AppData\\Roaming\\NuGet\\NuGet.Config"

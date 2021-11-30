@@ -5,12 +5,12 @@
 static void Main()
 {
 char Operators;
-double fun1, fun2, fun3;
+double fun1, fun2;
 
 Console.WriteLine("Choose Operation method (+, -, *, /)");
 Operators = Console.ReadLine()[0];
 
-Console.WriteLine("Enter the three number values to calculate");
+Console.WriteLine("Enter the two number values to calculate");
 fun1 = Convert.ToDouble(Console.ReadLine());
 fun2 = Convert.ToDouble(Console.ReadLine());
 
@@ -26,23 +26,26 @@ fun2 = Convert.ToDouble(Console.ReadLine());
             break;
 
         case '*':
-            Console.WriteLine.("{0} * {1} = {2}", fun1, fun2, (fun1 * fun2));
+            Console.WriteLine("{0} * {1} = {2}", fun1, fun2, (fun1 * fun2));
             break;
         
         case '/':
             Console.WriteLine("{0} / {1} = {2}", fun1, fun2, (fun1 / fun2));
             break;
         Default:
-            Console.WriteLine("Not a valid operation")
+            Console.WriteLine("Not a valid operation");
             break;
 
-    }
-While();   
+    }  
+While(answer ! == true )
+{
+
+}
 Console.WriteLine("Press any key to exit the calculator");
 Console.ReadKey();
 
 }
-Main()
+Main();
 
 
 //Your application should (mvp):
