@@ -1,8 +1,10 @@
-﻿// See https://aka.ms/new-console-template for more information
+// See https://aka.ms/new-console-template for more information
 
 
 //Create a dotnet console application to emulate a calculator.
+
 static void Main()
+
 {
 char Operators;
 double fun1, fun2;
@@ -16,34 +18,31 @@ fun2 = Convert.ToDouble(Console.ReadLine());
 
 
     switch(Operators)
-    {
+     {
         case '+':
             Console.WriteLine("{0} + {1} = {2}", fun1, fun2,(fun1 + fun2));
-            break;
+        break;
 
         case '-':
             Console.WriteLine("{0} - {1} = {2}", fun1, fun2, (fun1 - fun2));
-            break;
+         break;
 
         case '*':
             Console.WriteLine("{0} * {1} = {2}", fun1, fun2, (fun1 * fun2));
-            break;
+        break;
         
         case '/':
             Console.WriteLine("{0} / {1} = {2}", fun1, fun2, (fun1 / fun2));
-            break;
-        Default:
+        break;
+        default:
             Console.WriteLine("Not a valid operation");
-            break;
+        break;
 
-    }  
-While(answer ! == true )
-{
+        }  
 
-}
+
 Console.WriteLine("Press any key to exit the calculator");
 Console.ReadKey();
-
 }
 Main();
 
